@@ -16,7 +16,7 @@ class Signupform extends Model
 {
     public $username;
     public $password;
-    public $passwork_repeat;
+    public $password_repeat;
 
     public function rules()
     {
